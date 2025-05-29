@@ -1,0 +1,28 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "E-commerce Website",
+        "description": "A full React and Redux based e-commerce site with payment integration.",
+        "techStack": ["React", "Redux", "Stripe", "Node.js"],
+        "githubUrl": "https://github.com/yourusername/ecommerce",
+        "liveDemo": "https://ecommerce-demo.netlify.app"
+      },
+      {
+        "id": 2,
+        "title": "Real-time Chat App",
+        "description": "Chat application with real-time features and Firebase integration.",
+        "techStack": ["React", "Firebase", "WebSocket"],
+        "githubUrl": "https://github.com/yourusername/chat-app",
+        "liveDemo": "https://chatapp-demo.netlify.app"
+      },
+      {
+        "id": 3,
+        "title": "Portfolio Website",
+        "description": "Personal portfolio built with React and Material-UI.",
+        "techStack": ["React", "Material-UI", "Axios"],
+        "githubUrl": "https://github.com/yourusername/portfolio",
+        "liveDemo": "https://yourusername.github.io/portfolio"
+      }
+    ]
+  }

@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+# Abid Dasurkar - React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website built with React and Material-UI.  
+This project showcases my work, skills, and experience as a Frontend Developer with 2.6 years of professional experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📧 Contact Me
 
-### `npm start`
+- **Name:** Abid Dasurkar  
+- **Email:** [abiddasurkar@gmail.com](mailto:abiddasurkar@gmail.com)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖼 UX Screenshots
 
-### `npm test`
+### 🔆 Light Mode - Home Page
+![Light Mode Home Page](src/ux/light1.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔆 Light Mode - Projects Page
+![Light Mode Projects Page](src/ux/ligh2.png)
 
-### `npm run build`
+### 🌙 Dark Mode - Home Page
+![Dark Mode Home Page](src/ux/dark1.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🌙 Dark Mode - Projects Page
+![Dark Mode Projects Page](src/ux/dark2.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔆 Light Mode - Home Page (Alt View)
+![Light Mode Home Page Alt View](src/ux/light1.1.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🌙 Dark Mode - Home Page (Alt View)
+![Dark Mode Home Page Alt View](src/ux/dark1.1.png)
 
-### `npm run eject`
+### 🔆 Light Mode - Projects Page (Alt View)
+![Light Mode Projects Page Alt View](src/ux/light2.1.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🌙 Dark Mode - Projects Page (Alt View)
+![Dark Mode Projects Page Alt View](src/ux/dark2.1.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Responsive, modern UI built with [Material-UI](https://mui.com/)
+- Multi-page site using React Router:
+  - Home with dynamic typewriter effect and skills showcase
+  - About page detailing my experience and qualifications
+  - Projects page listing my portfolio with advanced filtering and sorting
+- Dark mode toggle with smooth theme transitions
+- Interactive animations implemented using [Framer Motion](https://www.framer.com/motion/)
+- API integration simulated with JSON Server and Axios for project data fetching
+- Accessible and SEO-friendly semantic markup
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠️ Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React (Latest version)  
+- Material-UI (MUI)  
+- React Router  
+- Framer Motion  
+- Axios  
+- JSON Server (for mock backend)  
+- React Simple Typewriter  
+- JavaScript (ES6+)  
+- HTML5 & CSS3  
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ⚙️ Installation & Setup
 
-### Analyzing the Bundle Size
+1. Clone this repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```bash
+    git clone https://github.com/yourusername/react-portfolio.git
+    ```
 
-### Making a Progressive Web App
+2. Navigate to the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    ```bash
+    cd react-portfolio
+    ```
 
-### Advanced Configuration
+3. Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    ```bash
+    npm install
+    ```
 
-### Deployment
+4. Start JSON Server (mock backend):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    ```bash
+    npx json-server --watch src/data/db.json --port 5000
+    ```
 
-### `npm run build` fails to minify
+5. In a separate terminal, start the React development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    ```bash
+    npm start
+    ```
+
+6. Open your browser and visit:
+
+    ```
+    http://localhost:3000
+    ```
+
+---
+
+## 📦 Folder Structure
+react-portfolio/
+├── public/
+├── src/
+│   ├── api/               # API client (Axios config)
+│   ├── components/        # React components
+│   ├── data/              # Static JSON data for JSON Server
+│   ├── styles/            # Custom styles and themes
+│   ├── App.jsx            # Main app component with routing
+│   ├── index.js           # React entry point
+├── package.json
+├── README.md
+
+📄 License
+This project is open-sourced and free to use.
+
+🤝 Feedback and Contributions
+Feel free to open issues or submit PRs for improvements!
+
+Thank you for visiting my portfolio!
+— Abid Dasurkar
